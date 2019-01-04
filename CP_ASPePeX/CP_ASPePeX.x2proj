@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>bd9c36c3-9040-4dab-8ede-d97d3ff8559d</Guid>
+    <Name>Character Pool - ASPePeX</Name>
+    <Description>If you want to let me get brutaly murdered in XCOM2, here you go.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>CP_ASPePeX</AssemblyName>
+    <RootNamespace>CP_ASPePeX</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="CharacterPool\ASPePeX.bin">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CharacterPool" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
